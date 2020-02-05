@@ -1,0 +1,61 @@
+#ifndef __PORT_H__
+#define __PORT_H__
+
+#include "Main.h"
+
+
+
+
+/* Leds' pins */
+#define LED_DUST_PORT_DR   (GPIO_PORTB_DATA)
+#define LED_DUST_PORT_CR   (GPIO_PORTB_CONTROL)
+#define LED_DUST_PIN       (GPIO_PIN_0)
+
+#define LED_1_PORT_DR   (GPIO_PORTB_DATA)
+#define LED_1_PORT_CR   (GPIO_PORTB_CONTROL)
+#define LED_1_PIN       (GPIO_PIN_0)
+
+#define LED_2_PORT_DR   (GPIO_PORTB_DATA)
+#define LED_2_PORT_CR   (GPIO_PORTB_CONTROL)
+#define LED_2_PIN       (GPIO_PIN_1)
+
+#define LED_3_PORT_DR   (GPIO_PORTB_DATA)
+#define LED_3_PORT_CR   (GPIO_PORTB_CONTROL)
+#define LED_3_PIN       (GPIO_PIN_2)
+
+#define LED_4_PORT_DR   (GPIO_PORTB_DATA)
+#define LED_4_PORT_CR   (GPIO_PORTB_CONTROL)
+#define LED_4_PIN       (GPIO_PIN_3)
+
+/* Fill missing code below */
+/* Switches */
+#define SWITCH_PLUS_PORT_DR     (GPIO_PORTB_DATA)
+#define SWITCH_PLUS_PORT_CR     (GPIO_PORTB_CONTROL)
+#define SWITCH_PLUS_PIN         (GPIO_PIN_0)
+
+#define SWITCH_MINUS_PORT_DR    (GPIO_PORTB_DATA)
+#define SWITCH_MINUS_PORT_CR    (GPIO_PORTB_CONTROL)
+#define SWITCH_MINUS_PIN        (GPIO_PIN_1)
+
+#define SWITCH_DUST_PORT_DR      (GPIO_PORTB_DATA)
+#define SWITCH_DUST_PORT_CR      (GPIO_PORTB_CONTROL)
+#define SWITCH_DUST_PIN          (GPIO_PIN_2)
+
+/* SSD */
+#define SSD_DATA_PORT_DR        (GPIO_PORTD_DATA)
+#define SSD_DATA_PORT_CR        (GPIO_PORTD_CONTROL)
+
+#define SSD_LOW_SPEED_DR       (GPIO_PORTB_DATA)
+#define SSD_LOW_SPEED_CR       (GPIO_PORTB_CONTROL)
+#define SSD_LOW_SPEED_PIN      (GPIO_PIN_7)
+
+#define SSD_MID_SPEED_DR      (GPIO_PORTB_DATA)
+#define SSD_MID_SPEED_CR      (GPIO_PORTB_CONTROL)
+#define SSD_MID_SPEED_PIN     (GPIO_PIN_6)
+
+#define SSD_HIGH_SPEED_DR     (GPIO_PORTB_DATA)
+#define SSD_HIGH_SPEED_CR     (GPIO_PORTB_CONTROL)
+#define SSD_HIGH_SPEED_PIN    (GPIO_PIN_5)
+
+
+#endif // __PORT_H__
